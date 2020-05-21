@@ -180,7 +180,7 @@ class SemanticMatcher(object):
                     matchFound = True
                 elif similarity >= tnode:
                     matchFound = True
-            if matchFound == False:
+            if matchFound is False:
                 subSetOf = False
         return subSetOf
 
